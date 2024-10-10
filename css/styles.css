@@ -138,8 +138,7 @@ header a:hover {
 .viewMore {
     font-family: "Source Code Pro", monospace;
     text-align: center;
-    padding: 3em;
-    
+    padding: 3em;    
 }
 
 .viewMore a {
@@ -150,6 +149,44 @@ header a:hover {
 
 .viewMore a:hover {
     opacity: 0.75;
+}
+
+/* === Main blog.html styles === */
+.container .recent-posts {
+    margin-top: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.main-blog {
+    max-width: 84.4em;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "Source Code Pro", monospace;
+}
+
+.main-blog div {
+    width: 98emx;
+    height: 48em;
+    display: block;
+    margin: 0 calc((100% - 980px) / 2);
+    filter: brightness(0.7);
+    background: url('/images/mainBlogImg.png') no-repeat center/cover;
+}
+
+.main-blog h2 { 
+    font-size: 3em;
+    text-align: left;
+    margin: 0 1.5rem;
+ }
+
+ .main-blog h3 {
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: 1.5rem;
+ }
+.main-blog p { 
+    font-size: 1.6rem;
+    padding: 1.5rem;
 }
 
 /* === Footer === */

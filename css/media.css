@@ -1,0 +1,70 @@
+@media(max-width: 990px) {
+    .card-holder {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "... ..." 
+            "one two"
+            "three four"
+            "five six"
+            "... ... ";
+    }
+}
+
+@media(max-width: 64.3em) {        
+    header { 
+        justify-content: space-between; 
+        align-items: center;
+    }
+    header p,
+    header a,
+    .main-blog p {
+        font-size: 1.1rem;
+    }
+    .main-blog { width: 100%; }
+    
+    .main-blog img {
+        width: 37.4em;
+        height: 19.0em;
+     }
+    header .logo-header { margin: 0 2px; }
+    header ul { gap: 0; }
+
+    .hero .hero-section,
+    .card-holder p {
+        font-size: 1.2rem;
+    }
+    .hero h1 { font-size: 1.7em; }
+    .card-holder h2 { margin: 0.3em 0 0.2em 0; }
+    .card-holder .card { margin-bottom: 0; }
+}
+
+@media(max-width: 48em) {
+    .container { 
+        width: 39em;
+        margin: 0 auto;
+    }
+
+    .main-blog {
+        margin: 0 10px;
+        width: 37em;
+    }
+    .main-blog div {
+        background: url("/images/mainBlogMobileImg.png") no-repeat center center/cover;
+        width: 39em;
+        height: 19em;
+        margin: 0 auto;
+    } 
+}
+
+@media(max-width: 48em) and (orientation: portrait) {
+    .card-holder {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "one"
+            "two"
+            "three"
+            "four"
+            "five"
+            "six";
+        }  
+}
