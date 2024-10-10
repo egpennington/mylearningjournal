@@ -69,13 +69,14 @@ header a {
 }
 
 header a:hover {
-    opacity: 0.75;
+    opacity: 0.8;
+    border-bottom: #32282a 1px solid;
 }
 
 /* === Hero section === */
 .hero {
     height: 48em;
-    background: #333 url(images/herobg2.png) no-repeat center/cover;
+    background: #333 url(/images/herobg2.png) no-repeat center/cover;
     background-position: 80% 70%;
     display: flex;
     align-items: flex-end;
@@ -160,62 +161,4 @@ footer {
     flex-direction: column;
     padding: 2em;
     font-size: 1.2rem;
-}
-
-/* === @media styles === */
-/* @media (max-width: 640px) and (max-height: 360px) {
-    .card-holder {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas:
-            "one two"
-            "three four"
-            "five six";
-        background: red;
-    }
-} */
-
-@media(max-width: 990px) {
-    .card-holder {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas:
-            "... ..." 
-            "one two"
-            "three four"
-            "five six"
-            "... ... ";
-    }
-}
-
-@media(max-width: 64.3em) {        
-    header { 
-        justify-content: space-between; 
-        align-items: center;
-    }
-    header p,
-    header a {
-        font-size: 1.1rem;
-    }
-    header .logo-header { margin: 0 2px; }
-    header ul { gap: 0; }
-
-    .hero .hero-section,
-    .card-holder p {
-        font-size: 1.2rem;
-    }
-    .hero h1 { font-size: 1.7em; }
-    .card-holder h2 { margin: 0.3em 0 0.2em 0; }
-    .card-holder .card { margin-bottom: 0; }
-}
-
-@media(max-width: 48em) and (orientation: portrait) {
-    .card-holder {
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "one"
-            "two"
-            "three"
-            "four"
-            "five"
-            "six";
-        }    
 }
