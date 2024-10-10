@@ -4,6 +4,8 @@ This project is part of the Scrimba Frontend Developer Bootcamp, Module 6: Respo
 
 ## Project Overview
 
+- **Forked Scrim** [Scrimba](https://v1.scrimba.com/scrim/co5ae40cdbbd6a88774db6a11)
+
 - **Figma Design**: [Learning Journal/Blog Design](https://www.figma.com/design/hE5klIn1AEQ9XWZWmurs7y/Learning-Journal%2FBlog?node-id=0-1&node-type=canvas&t=GnJml8EciGgYHoui-0)
 - **Tech Stack**: HTML, CSS, JavaScript, Git, GitHub, Bash
 - **Key Focus Areas**:
