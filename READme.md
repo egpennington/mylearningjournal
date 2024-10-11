@@ -2,6 +2,8 @@
 
 This project is part of the Scrimba Frontend Developer Bootcamp, Module 6: Responsive Design. The goal is to build pages from scratch based on a Figma file, ensuring all pages are responsive using various techniques.
 
+- **Live Site** [Netlify](https://emmettlearningjournal.netlify.app/)
+
 ## Project Overview
 
 - **Forked Scrim** [Scrimba](https://v1.scrimba.com/scrim/co5ae40cdbbd6a88774db6a11)
