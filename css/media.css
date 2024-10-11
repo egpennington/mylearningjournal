@@ -13,6 +13,8 @@
         justify-content: space-around;       
         padding: 2.0em;
     }
+
+    .more { font-size: 20rem; }
 }
 
 @media(max-width: 99em) {
@@ -34,6 +36,8 @@
             "three three"
             "... ... ";
     }
+
+    .more { font-size: 15rem; }
 
 }
 
@@ -77,6 +81,8 @@
     .about .about-content {
         max-width: 65em;
     }
+
+    .more { font-size: 10rem; }
 }
 
 @media(max-width: 48em) {
