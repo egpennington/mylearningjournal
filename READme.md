@@ -24,6 +24,7 @@ This project is part of the Scrimba Frontend Developer Bootcamp, Module 6: Respo
    - The layout adapts to different screen sizes using media queries.
    - Implemented a mobile-first approach for better performance on smaller devices.
    - - with mobile first, focus on min-width in media, not max-width.  i.e. @media(min-width: 600px)
+     - review article here [https://zellwk.com/blog/how-to-write-mobile-first-css/]
 
 2. **Relative Units**:
    - Used relative units like percentages, ems, and rems for better scalability and responsiveness.
