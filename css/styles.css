@@ -42,6 +42,11 @@ header .logo {
     width: 3.4em;
 }
 
+.logo-anchor:hover {
+    border: none;
+    opacity: 0.5;
+}
+
 header p {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -68,7 +73,7 @@ header a {
     word-spacing: -0.4em;
 }
 
-header a:hover {
+header .header-links a:hover {
     opacity: 0.8;
     border-bottom: #32282a 1px solid;
 }
