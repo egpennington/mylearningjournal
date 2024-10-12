@@ -114,7 +114,6 @@ header .header-links a:hover {
     grid-template-columns: repeat(3, 30em);
     gap: 2.5em;
     justify-content: center;
-    align-items: center;
     grid-template-areas:
         "... ... ..." 
         "one two three"
