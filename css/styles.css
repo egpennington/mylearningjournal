@@ -276,7 +276,7 @@ header .header-links a:hover {
     gap: 1rem;
     max-width: 500px;
     height: 80vh;
-    margin: 2rem auto;
+    margin: 0.5rem auto;
     padding: 2rem;
     border-radius: 8px;
     background: #f9f9f9;
