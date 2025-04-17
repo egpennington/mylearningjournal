@@ -80,49 +80,59 @@ header .header-links a:hover {
 
 /* === Hero section === */
 .hero {
+    width: 100%;
     height: 48em;
-    background: #333 url(/images/herobg2.png) no-repeat center/cover;
-    background-position: 80% 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+  
+.hero-card {
+    background-size: cover;
+    background-position: 0% 75%;
+    background-repeat: no-repeat;
+    height: 450px;
+    color: #fff;
+    font-size: 1.6rem;
     display: flex;
     align-items: flex-end;
-    color: #fafafa;
+    border-radius: 12px;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    filter: brightness(1.6);
 }
 
-.hero .hero-section {
-    width: 41em;
-    margin: 3em;
-    font-size: 1.6rem;
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 100%;
 }
-.hero h1 {
-    color: #fff;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+  
+.hero-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center bottom;
+    border-radius: 10px;
 }
-
-.hero a {
-    text-decoration: none;
-    color: #fafafa;
-}
-
-.hero a:hover {
-    opacity: 0.8;
+  
+.hero-title {
+    font-size: 2rem;
+    margin: 1.3rem 0;
 }
 
 /* === Card holder section === */
 .card-holder {
     display: grid;
-    grid-template-columns: repeat(3, 30em);
-    gap: 2.5em;
-    justify-content: center;
-    grid-template-areas:
-        "... ... ..." 
-        "one two three"
-        "four five six"
-        "... ... ...";
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
 }
-
-.card-holder p:nth-of-type(1) { font-size: 1.4em; }
-.card-holder p:nth-of-type(2) { font-size: 1.4em; }
 
 .card-holder h2 {
     margin: 0.7em 0 0.2em 0;
@@ -131,27 +141,36 @@ header .header-links a:hover {
     word-spacing: -0.4em;
 }
 
-.card-holder .card { 
-    width: 30em;
-    margin: 1em auto;
- }
-
-.card-holder .card img {
-    width: 30em;
-    height: 23em;
+.card-holder .card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;    
 }
 
-.card1 { grid-area: one; }
-.card2 { grid-area: two; }
-.card3 { grid-area: three; }
-.card4 { grid-area: four;}
-.card5 { grid-area: five; }
-.card6 { grid-area: six; }
+.card-holder .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* show up to 4 lines */
+    -webkit-box-orient: vertical;
+    line-height: 1.6;
+ }
 
 .card:hover {
-    opacity: 0.8;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 2px;
+    opacity: 0.95;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
 
 .viewMore {
